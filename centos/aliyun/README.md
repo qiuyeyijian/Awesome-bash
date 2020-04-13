@@ -7,6 +7,10 @@
 ```
 chmod +x centos.sh && ./centos.sh
 ```
+or
+```
+chmod 755 centos.sh && ./centos.sh
+```
 
 
 

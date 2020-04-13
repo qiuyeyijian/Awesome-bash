@@ -10,7 +10,6 @@
 chmod -x port.sh && ./port.sh [add/remove] [port] [tcp/udp]
 ```
 or
-
 ```bash
 chmod -755 port.sh && ./port.sh [add/remove] [port] [tcp/udp]
 ```
