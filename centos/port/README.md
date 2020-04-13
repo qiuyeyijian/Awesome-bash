@@ -1,3 +1,46 @@
+### 功能
+
+开启或者关闭端口
+
+### 使用
+
+#### 1. 下载脚本
+
+```
+git clone https://gitee.com/qiuyeyijian/bash.git
+```
+#### 2. 运行
+
+`chmod -x port.sh` 是赋予文件可执行权限
+
+```bash
+chmod -x port.sh && ./port.sh [add/remove] [port] [tcp/udp]
+```
+or
+
+```bash
+chmod -755 port.sh && ./port.sh [add/remove] [port] [tcp/udp]
+```
+例如：
+
+* 开启端口
+
+```bash
+./port.sh add 8080 tcp
+./port.sh add 8080 udp
+```
+* 关闭端口
+
+```bash
+./port.sh remove 8080 tcp
+./port.sh remove 8080 udp
+```
+
+
+
+### 附录： port.sh
+
+```bash
 #! /bin/bash
 
 # 获取防火墙状态
@@ -29,4 +72,5 @@ fi
 
 # 列出开放的端口号
 firewall-cmd --list-ports
+```
 
