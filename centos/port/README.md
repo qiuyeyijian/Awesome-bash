@@ -2,14 +2,7 @@
 
 开启或者关闭端口
 
-### 使用
-
-#### 1. 下载脚本
-
-```
-git clone https://gitee.com/qiuyeyijian/bash.git
-```
-#### 2. 运行
+#### 运行
 
 `chmod -x port.sh` 是赋予文件可执行权限
 
